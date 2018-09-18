@@ -1,5 +1,5 @@
 <%= @Player_1.name %> VS <%= @Player_2.name %><br>
 
-<%= $Player_1.name %>: <%= @Player_1_hp %> HP  <form action="/attack1" method="post"><input type="submit" name="Player_1_attack" value="Player 1 attack"></form> <br>
+<%= @Player_1.name %>: <%= @Player_1.hp %> HP  <form action="/attack1" method="post"><input type="submit" name="Player_1_attack" value="Player 1 attack"></form> <br>
 
-<%= $Player_2.name %>: <%= @Player_2_hp %> HP  <form action="/attack2" method="post"><input type="submit" name="Player_2_attack" value="Player 2 attack"></form> <br>
+<%= @Player_2.name %>: <%= @Player_2.hp %> HP  <form action="/attack2" method="post"><input type="submit" name="Player_2_attack" value="Player 2 attack"></form> <br>
